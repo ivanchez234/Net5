@@ -14,6 +14,7 @@ protected:
     int vertex_D;
 public:
     Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D);
+    virtual ~Quadrangle() = default;
     int get_sideA() const;
     int get_sideB() const;
     int get_sideC() const;
@@ -23,5 +24,6 @@ public:
     int get_vertex_C() const;
     int get_vertex_D() const;
     virtual std::string get_name() const;
+
 };
 #endif

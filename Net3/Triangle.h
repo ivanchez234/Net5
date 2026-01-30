@@ -11,6 +11,7 @@ protected:
     int vertex_C;
 public:
     Triangle(int a, int b, int c, int A, int B, int C);
+    virtual ~Triangle() = default;
 
     int get_sideA() const;
     int get_sideB() const;

@@ -124,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Net1.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Header.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
