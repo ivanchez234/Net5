@@ -1,4 +1,4 @@
-#include "Quadrangle.h"
+ï»¿#include "Quadrangle.h"
 
 Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D)
     : side_A(a), side_B(b), side_C(c), side_D(d),
@@ -14,5 +14,5 @@ int Quadrangle::get_vertex_B() const { return vertex_B; }
 int Quadrangle::get_vertex_C() const { return vertex_C; }
 int Quadrangle::get_vertex_D() const { return vertex_D; }
 std::string Quadrangle::get_name() const {
-    return "×åòûğ¸õóãîëüíèê";
+    return "Ğ§ĞµÑ‚Ñ‹Ñ€ĞµÑ…ÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸Ğº";
 }

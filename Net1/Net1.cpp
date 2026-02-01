@@ -23,7 +23,7 @@ int main()
         std::cout << num1 << " + " << num2 << " = " << result << std::endl;
         break;
     case 2:
-        result = min(num1, num2);
+        result = diff(num1, num2);
         std::cout << num1 << " - " << num2 << " = " << result << std::endl;
         break;
     case 3:

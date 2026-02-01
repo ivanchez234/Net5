@@ -1,9 +1,9 @@
-#include "IsoscelesTriangle.h"
+п»ї#include "IsoscelesTriangle.h"
 
 IsoscelesTriangle::IsoscelesTriangle(int a, int b, int A, int B)
     : Triangle(a, b, a, A, B, A) {
 }
 
 std::string IsoscelesTriangle::get_name() const {
-    return "Равнобедренный треугольник";
+    return "Р Р°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }

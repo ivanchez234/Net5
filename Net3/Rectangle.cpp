@@ -1,9 +1,9 @@
-#include "Rectangle.h"
+п»ї#include "Rectangle.h"
 
 Rectangle::Rectangle(int a, int b)
     : Quadrangle(a, b, a, b, 90, 90, 90, 90) {
 }
 
 std::string Rectangle::get_name() const {
-    return "Прямоугольник";
+    return "РџСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє";
 }

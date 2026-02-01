@@ -5,7 +5,7 @@ double sum(double a, double b)
 {
 	return a + b;
 }
-double min(double a, double b)
+double diff(double a, double b)
 {
 	return a - b;
 }
